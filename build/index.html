@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="fr" class="no-js">
+
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+<meta name="description"
+content="Bienvenue sur le site de Vélo'v, système de vélos en libre-service mis en place dans la métropole de Lyon et géré par l'entreprise JCDecaux" />
+<link rel="canonical" href="https://juliaassad.fr/projet3/" />
+<meta name="google-site-verification" content="bRdQN14v7GvGFkbTLx-KmzTHy-rB2GHMi691BCq6LuU" />
+<meta property="og:locale" content="fr_FR" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Vélo'v - Projet OpenClassrooms - Julia Assad" />
+<meta property="og:description"
+content="Bienvenue sur le site de Vélo'v, système de vélos en libre-service mis en place dans la métropole de Lyon et géré par l'entreprise JCDecaux" />
+<meta property="og:url" content="https://juliaassad.fr/projet3/" />
+<meta property="og:site_name" content="Vélo'v" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description"
+content="Bienvenue sur le site de Vélo'v, système de vélos en libre-service mis en place dans la métropole de Lyon et géré par l'entreprise JCDecaux" />
+<meta name="twitter:title" content="Vélo'v - Projet OpenClassrooms - Julia Assad" />
+
+<!-- Favicon -->
+<link rel="shortcut icon" href="img/favicon.ico">
+
+<!-- Bootstrap 4 -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous" />
+
+<!-- FontAwesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous" />
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700" rel="stylesheet">
+
+<!-- Custom CSS -->
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+
+
+<title>Vélo'v - Projet OpenClassrooms - Julia Assad</title>
+
+</head>
+
+<body id="top">
+
+<!-- SIDE NAVIGATION -->
+<div id="mySidenav" class="sidenav">
+<img src="img/velov_icon.png" alt="velo'v icon" width="30" />
+<a href="javascript:void(0)" class="closebtn"></a>
+<a href="#top">Accueil</a>
+<a href="#map-container">Carte</a>
+<a href="#contact">Contact</a>
+</div>
+
+<!-- MAIN NAVIGATION -->
+<nav id="nav" class="py-3 navbar fixed-top navbar-light">
+<div class="container">
+    <div class="d-flex flex-row justify-content-between align-items-center w-100">
+        <div id="menu" class="menu-open">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+        <img class="mr-3 d-none d-md-block" src="img/Velo_de_course_love_bike.png" alt="love velo'v icon"
+            width="30" />
+        <img class="img-fluid" src="img/velo-v-logo.png" width="90" alt="velo'v logo" />
+    
+        <img class="img-fluid ml-auto d-none d-md-block" src="img/Logo_Grand_Lyon.svg.png" width="180"
+            alt="Grand Lyon logo" />
+    </div>
+</div>
+</nav>
+
+
+<!-- MAIN -->
+<main>
+    
+<!-- HEADER -->
+<header>
+    <div class="header__text_box">
+        <h1 class="heading-primary--main">Vélo'v vous accompagne à chaque instant</h1>
+      </div>
+</header>
+
+<!-- SECTION 1 : DIAPORAMA -->
+<section id="slider_container">
+    <div class="container">
+        <h2 class="text-center">Fonctionnement de l'application</h2>
+        <div class="heading__border">
+            <span class="heading__border__outer__line"></span>
+        </div>
+        <div id="main-slider">
+            <div class="item">
+                <div class="left-half">
+                    <img class="img-fluid" src="img/mockup.jpg" alt="">
+                </div>
+                <div class="right-half">
+                    <div class="slider_content">
+                        <h3 class="pb-3">1 - Sélectionnez une zone</h3>
+                        <ul>
+                            <li>Cliquez ou zoomez sur le marqueur indiquant la zone où vous souhaitez louer votre vélo</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="left-half">
+                    <img class="img-fluid" src="img/mockup2.jpg" alt="">
+                </div>
+                <div class="right-half">
+                    <div class="slider_content">
+                        <h3 class="pb-3">2 - Choisissez une station</h3>
+                        <ul>
+                            <li>Un panneau s'affiche lors du clic sur un marqueur et vous avez la possibilité de
+                                visiter la station ou de réserver un vélo</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="left-half">
+                    <img class="img-fluid" src="img/mockup3.jpg" alt="">
+                </div>
+                <div class="right-half">
+                    <div class="slider_content">
+                        <h3 class="pb-3">3 - Visitez la station</h3>
+                        <ul>
+                            <li>Cliquez sur 'visiter' pour réaliser la visite virtuelle de la station choisie
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="left-half">
+                    <img class="img-fluid" src="img/mockup4.jpg" alt="">
+                </div>
+                <div class="right-half">
+                    <div class="slider_content">
+                        <h3 class="pb-3">4 - Réservez votre vélo'v</h3>
+                        <ul>
+                            <li>Cliquez sur 'réserver', puis indiquez votre nom et prénom et signez dans un champ libre
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="left-half">
+                    <img class="img-fluid" src="img/mockup5.jpg" alt="">
+                </div>
+                <div class="right-half">
+                    <div class="slider_content">
+                        <h3 class="pb-3">5 - Réservation</h3>
+                        <ul>
+                            <li>Votre réservation expire automatiquement au bout de 20 minutes
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="slider__next"></div>
+            <div class="slider__prev"></div>
+            <div class="slider__action"></div>
+            <div class="text-center">
+                <a href="#map__section" class="btn btn-red btn-md my-4">Carte et Stations</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 2 : À PROPOS -->
+<section id="about" class="text-center background-color--gray--light">
+    <div class="container">
+        <h2>Réservez votre vélo'v</h2>
+        <div class="section__content text-muted">
+            <p>Vous pouvez réserver un vélo, 7j/7, 24h/24.</p>
+            <p>Dans chaque station, une borne permet d'acquérir une carte (courte durée) payable par carte
+                bancaire. Le ticket 1 trajet coûte 1,80 € et la formule 24 heures 4 €. L'abonnement longue durée
+                coûte 31 €.</p>
+            <div class="text-center mt-4 pt-4">
+                <a href="#map__section"><img class="arrow_down" src="img/down-arrow.svg"
+                        alt="flêche pour accéder à la carte des stations"></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Section 3 : LA CARTE DES STATIONS -->
+<section id="map__section">
+    <h2 class="text-muted text-center h4">340+ stations. 4,000 vélos.</h2>
+    <div class="section__content">
+        <section id="map-container">
+            <div id="map"></div>
+            <div id="panorama"></div>
+            <button type="button" id="back-to-map" class="btn btn-secondary btn-sm ">
+                Revenir à la carte
+            </button>
+            <button type="button" id="reset-map" class="btn btn-secondary btn-sm ">
+                Réinitialiser la carte
+            </button>
+            <div id="info-container">
+                <button type="button" class="close" aria-label="Close">
+                    <span class="close" aria-hidden="true">&times;</span>
+                </button>
+                <div class="station_number text-center p-3" id="station_number">
+                    <h2 class="station_name h6 font-weight-bold">Station Name</h2>
+                    <p class="station_address"></p>
+                    <div>
+                        <span class="available_bikes px-2"></span><i class="fas fa-bicycle"></i>
+                        <span class="available_bike_stands px-2"></span><i class="fas fa-parking"></i>
+                        <span class="banking px-4"><i class="far fa-credit-card"></i></span>
+                    </div>
+                    <div class="text-center mt-2">
+                        <button class="button-visit btn btn-outline-secondary btn-sm">
+                            Visiter
+                        </button>
+                        <a href="#canvas" class="button-reserve btn btn-outline-secondary btn-sm">
+                            Reserver
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</section>
+
+<!-- Section 4 : CANVAS - SIGNATURE -->
+<section id="canvas" class="text-center d-none">
+    <div class=" container">
+        <h2 class="d-none">Canvas</h2>
+
+        <div class="row">
+            <div class="col-md-12">
+
+                <canvas class="canvas signature-pad-body" id="signatureCanvas">
+                    Get a better browser :-)
+                </canvas>
+                <canvas id='blank' style='display:none'></canvas>
+                <div class="mt-3">
+                    Prénom: <input class="fname" type="text" name="fname" value="">
+                </div>
+                <div class="mt-3">
+                    Nom: <input class="lname" type="text" name="lname" value="">
+                </div>
+                <p class="mt-4">Veuillez apposer votre signature et <br>indiquer votre nom et prénom afin de
+                    finaliser votre réservation
+                </p>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="mt-3">
+                    <a href="#reservedStation" class="btn btn-sm btn-danger" id="submitBtn">Je réserve mon
+                        vélo</a>
+                    <button class="btn btn-sm btn-default" id="clearBtn">Effacer</button>
+                </div>
+            </div>
+        </div>
+        <br />
+    </div>
+</section>
+
+<!-- Section 5 : CONFIRMATION DE RESERVATION -->
+<section id="reservedStation" class="d-none">
+    <div class="container text-center">
+        <h2 class="pb-4">Votre Réservation</h2>
+        <p>Vélo réservé à la station
+            <span class="reservedStationName"></span>
+            <br>
+            <span class="reservedStationaddress"></span> par <span class="name"></span></p>
+        <p>Temps restant: <span id="clockdiv"></span></p>
+        <br>
+        <span id="countdown2" class="timer"></span>
+        <button class="cancelReservation btn btn-sm btn-danger">Annuler la réservation</button>
+    </div>
+</section>
+
+<!-- Section 6 : ANNULATION DE RESERVATION (POPUP) -->
+<section id="cancelReservationSuccess" class="d-none">
+    <div class="container">
+        <h2 class="d-none">Cancel Reservation</h2>
+        <p class="text-center text-white bg-success rounded p-2">
+            Votre réservation a bien été annulée
+        </p>
+    </div>
+</section>
+
+<!-- Section 7 : RESERVATION EXPIRÉE (POPUP) -->
+<section id="expiredReservation" class="d-none">
+    <div class="container">
+        <h2 class="d-none">Cancel Reservation</h2>
+        <p class="text-center text-white bg-info rounded p-2">
+            Votre réservation actuelle a expiré
+        </p>
+    </div>
+</section>
+
+<!-- Section 8 : DÉCOUVRIR LA VILLE DE LYON EN VÉLO -->
+<section id="popular_rides" class="text-center background-color--gray--light">
+    <div class="container">
+        <h2>Découvrez la ville de Lyon en vélo</h2>
+        <div class="section__content">
+            <div class="row">
+                <div class="col-sm-6 col-lg-4 mt-4">
+                    <p>Parc de la tête d'Or</p>
+                    <div class="image_holder">
+                        <img src="img/discover_img1.jpg" class="img-fluid" alt="Parc de la tête d'Or">
+                        <div class="middle_container">
+                            <h3>Station Vélo’v : Avenue Verguin</h3>
+                            <p>Non loin de la gare en vélo, profitez du Parc de la Tête d’Or, le plus grand parc
+                                urbain français ! En plus du parc, promenez-vous dans le jardin botanique et le
+                                parc zoologique</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4 mt-4">
+                    <p>Centre-ville de Lyon</p>
+                    <div class="image_holder">
+                        <img src="img/discover_img2.jpg" class="img-fluid" alt="Centre-ville de Lyon">
+                        <div class="middle_container">
+                            <h3>Station Vélo’v : Terreaux / Chenavard</h3>
+                            <p>Découvrez les lieux suivants : Fontaine Bartholdi, Musée des Beaux Arts, Jardin
+                                des Beaux Arts, Hôtel de Ville, Opéra de Lyon</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4 mt-4">
+                    <p>La “Colline qui prie”, Fourvière</p>
+                    <div class="image_holder">
+                        <img src="img/discover_img3.jpg" class="img-fluid" alt="La Colline qui prie, Fourvière">
+                        <div class="middle_container">
+                            <h3>Station Vélo’v : St Jean</h3>
+                            <p>
+                                La colline offre une vue imprenable sur la ville, mais elle est difficilement
+                                accessible en vélo, alors n'hésitez pas à prendre le funiculaire. La station du
+                                funiculaire “Vieux Lyon” se trouve à deux pas de la station de vélo.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4 mt-4">
+                    <p>Vieux Lyon</p>
+                    <div class="image_holder">
+                        <img src="img/discover_img4.jpg" class="img-fluid" alt="Vieux Lyon">
+                        <div class="middle_container">
+                            <h3>
+                                Station Vélo’v : St Jean
+                            </h3>
+                            <p>Redescendez de la colline et baladez-vous à pied ou en vélo dans le vieux Lyon.
+                                En sortant de la station du funiculaire, s’offre à vous la Cathédrale
+                                Saint-Jean-Baptiste qui domine la charmante place Saint-Jean.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4 mt-4">
+                    <p>Place Bellecour</p>
+                    <div class="image_holder">
+                        <img src="img/discover_img5.jpg" class="img-fluid" alt="Place Bellecour">
+                        <div class="middle_container">
+                            <h3>Station Vélo’v : Bellecour / St Exupéry</h3>
+                            <p>Traverser ensuite la Saône pour vous rendre sur la célèbre place Bellecour où
+                                trône une statue équestre de Louis XIV. L’office de Tourisme se trouve sur cette
+                                place.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4 mt-4">
+                    <p>Musée des Confluences</p>
+                    <div class="image_holder">
+                        <img src="img/discover_img6.jpg" class="img-fluid" alt="Musée des Confluences">
+                        <div class="middle_container">
+                            <h3>Station Vélo’v : Musée des Confluences</h3>
+                            <p>Posé sur la pointe sud de la Presqu’île de Lyon, le musée des Confluences brille
+                                de part son style architecturale déconstructiviste. Il abrite des collections
+                                d’histoire naturelle, d’anthropologie et de civilisations.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Section 9 : CONTACT -->
+<section id="contact">
+    <div class="container">
+        <h2 class="pb-4">Contactez Nous</h2>
+        <div class="row">
+            <div class="col-sm-6">
+                <form id="contact-form" name="contact-form" action="#" method="POST">
+                    <!--Grid row-->
+                    <div class="row">
+                        <!--Grid column-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="name" name="name" class="form-control" />
+                                <label for="name" class="">Votre nom</label>
+                            </div>
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="email" name="email" class="form-control" />
+                                <label for="email" class="">Votre email</label>
+                            </div>
+                        </div>
+                        <!--Grid column-->
+                    </div>
+                    <!--Grid row-->
+
+                    <!--Grid row-->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="md-form mb-0">
+                                <input type="text" id="subject" name="subject" class="form-control" />
+                                <label for="subject" class="">Sujet</label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Grid row-->
+
+                    <!--Grid row-->
+                    <div class="row">
+                        <!--Grid column-->
+                        <div class="col-md-12">
+                            <div class="md-form">
+                                <textarea id="message" name="message" rows="2"
+                                    class="form-control md-textarea"></textarea>
+                                <label for="message">Votre message</label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Grid row-->
+                </form>
+                <div class="text-center text-md-left">
+                    <a class="btn btn-secondary btn-sm text-white">Envoyer</a>
+                </div>
+                <ul class="list-unstyled mb-0">
+                    <li>
+                        <i class="fa fa-phone mt-4"></i>
+                        <p>01 30 79 33 40</p>
+                    </li>
+
+                    <li>
+                        <i class="fa fa-envelope mt-4"></i>
+                        <p>contact.velov@jcdecaux.com</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-6">
+                <div id="map2" class="mb-3"></div>
+                <div id="footer-slider">
+
+                    <div class="item">
+                        <div class="item__image">
+                            <img src="img/footer_slider_slide1.jpeg" alt="photo des nouveaux vélo'v">
+                        </div>
+                        <div class="item__body">
+                            <div class="item__description">
+                                Plus modernes, plus légers, résistants et confortables : les nouveaux vélo'v
+                                font aussi 2,3 kg de moins
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="item__image">
+                            <img src="img/footer_slider_slide2.jpeg"
+                                alt="Photo de l'installation des 4000 nouveaux vélo'v la nuit du 17 au 18 Juillet 2018">
+                        </div>
+                        <div class="item__body">
+                            <div class="item__description">
+                                Promesse tenue : les 4000 nouveaux vélo'v ont été installés en une seule nuit -
+                                celle du 17 au 18 Juillet 2018.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="slider__next"></div>
+                    <div class="slider__prev"></div>
+                    <div class="slider__action"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+</main>
+<!-- End Main -->
+
+<!-- Footer -->
+<footer>
+<ul class="social_icons">
+    <li><a target="_blank" href="https://www.facebook.com/velov.officiel/"><i class="fab fa-facebook-f"></i></a>
+    </li>
+    <li><a target="_blank" href="https://twitter.com/lyonvelov?lang=en"><i class="fab fa-twitter"></i></a></li>
+</ul>
+<div>
+    <p class="copyright">© 2018 ASSAD Julia - Projet 3 Openclassrooms</p>
+    <div class="smashicons mt-2">Icons made by <a href="https://www.flaticon.com/authors/smashicons"
+            title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/"
+            title="Flaticon">www.flaticon.com</a> is licensed by <a
+            href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0"
+            target="_blank">CC 3.0
+            BY</a></div>
+
+</div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script
+src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
+
+
+</script>
+<script src="js/app.bundle.js"></script>
+<!-- on charge le code dans google map api et une fois chargé, on appelle la fonction init  -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAxhUByPvTz3D0KqwcNVtUvAduPNHi6EcQ&callback=init"
+async defer></script>
+</body>
+
+</html>
