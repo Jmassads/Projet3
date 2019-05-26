@@ -1,6 +1,7 @@
 # Projet3 OpenClassrooms
 ## Concevoir une carte interactive de location de vélos
 
+### Projet Validé :white_check_mark:
 https://juliaassad.fr/projet3/
 
 ### Énoncé
